@@ -2,5 +2,7 @@
   "name": "SPACEBAR - Gaming Cafe & Arcade Ludhiana",
   "description": "Ludhiana's premier video arcade, esports gaming lounge, and gourmet food cafe in Sarabha Nagar. Featuring motion racing simulators, PS5 consoles, 240Hz PC battlestations, and artisan food.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
