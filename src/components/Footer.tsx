@@ -8,56 +8,56 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-[#07080e] border-t border-slate-800/80 pt-16 pb-12 text-slate-400 text-xs">
+    <footer className="bg-slate-50 border-t border-slate-200 pt-16 pb-12 text-slate-600 text-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Footer Row */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800/80">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-200">
           
           {/* Brand info with SpacebarLogo */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <SpacebarLogo size="md" className="h-9 w-auto" />
-              <span className="text-xl font-display font-black text-white tracking-tight">
+              <span className="text-xl font-display font-black text-slate-950 tracking-tight">
                 SPACEBAR
               </span>
             </div>
-            <p className="text-xs text-slate-400 leading-relaxed">
+            <p className="text-xs text-slate-600 leading-relaxed">
               Ludhiana’s premier video arcade, esports lounge & gourmet food cafe. Built for gamers, food lovers, and squad celebrations.
             </p>
-            <div className="text-[11px] font-mono text-purple-400">
+            <div className="text-[11px] font-mono font-bold text-rose-600">
               ਸਪੇਸਬਾਰ ਆਰਕੇਡ ਅਤੇ ਕੈਫੇ • ਲੁਧਿਆਣਾ
             </div>
           </div>
 
           {/* Quick Navigation */}
           <div className="space-y-3">
-            <h4 className="text-xs font-mono font-semibold text-white uppercase tracking-wider">
+            <h4 className="text-xs font-mono font-bold text-slate-900 uppercase tracking-wider">
               Explore Spacebar
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
-                <a href="#gaming-zone" className="hover:text-cyan-400 transition-colors">
+                <a href="#gaming-zone" className="hover:text-rose-600 transition-colors">
                   Motion Racing Simulators
                 </a>
               </li>
               <li>
-                <a href="#gaming-zone" className="hover:text-cyan-400 transition-colors">
+                <a href="#gaming-zone" className="hover:text-rose-600 transition-colors">
                   PS5 & Xbox 4K Lounges
                 </a>
               </li>
               <li>
-                <a href="#gaming-zone" className="hover:text-cyan-400 transition-colors">
+                <a href="#gaming-zone" className="hover:text-rose-600 transition-colors">
                   240Hz Esports PC Battle-Stations
                 </a>
               </li>
               <li>
-                <a href="#menu-showcase" className="hover:text-cyan-400 transition-colors">
+                <a href="#menu-showcase" className="hover:text-rose-600 transition-colors">
                   Gourmet Smashed Burgers & Shakes
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="hover:text-cyan-400 transition-colors">
+                <a href="#pricing" className="hover:text-rose-600 transition-colors">
                   Hourly Rates & Birthday Packages
                 </a>
               </li>
@@ -66,23 +66,23 @@ export const Footer: React.FC = () => {
 
           {/* Business & Hours */}
           <div className="space-y-3">
-            <h4 className="text-xs font-mono font-semibold text-white uppercase tracking-wider">
+            <h4 className="text-xs font-mono font-bold text-slate-900 uppercase tracking-wider">
               Hours & Location
             </h4>
-            <div className="space-y-2 text-xs text-slate-300">
+            <div className="space-y-2 text-xs text-slate-700">
               <div className="flex items-start gap-2">
-                <Clock className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+                <Clock className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" />
                 <div>
-                  <span className="text-white font-medium">Monday – Sunday</span>
-                  <div className="text-slate-400">11:00 AM – 11:00 PM Daily</div>
+                  <span className="text-slate-900 font-bold">Monday – Sunday</span>
+                  <div className="text-slate-500">11:00 AM – 11:00 PM Daily</div>
                 </div>
               </div>
 
               <div className="flex items-start gap-2 pt-1">
-                <MapPin className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
                 <div>
-                  <span className="text-white font-medium">51, I - Block, Sarabha Nagar</span>
-                  <div className="text-slate-400">Ludhiana, Punjab 141001</div>
+                  <span className="text-slate-900 font-bold">51, I - Block, Sarabha Nagar</span>
+                  <div className="text-slate-500">Ludhiana, Punjab 141001</div>
                 </div>
               </div>
             </div>
@@ -90,17 +90,17 @@ export const Footer: React.FC = () => {
 
           {/* Direct Contact */}
           <div className="space-y-3">
-            <h4 className="text-xs font-mono font-semibold text-white uppercase tracking-wider">
+            <h4 className="text-xs font-mono font-bold text-slate-900 uppercase tracking-wider">
               Contact & Inquiries
             </h4>
             <div className="space-y-2 text-xs">
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-purple-400 shrink-0" />
-                <a href="tel:+919877950582" className="text-white hover:text-cyan-400 font-mono">
+                <Phone className="w-4 h-4 text-slate-700 shrink-0" />
+                <a href="tel:+919877950582" className="text-slate-900 hover:text-rose-600 font-bold font-mono">
                   +91 98779 50582
                 </a>
               </div>
-              <p className="text-slate-400 text-[11px]">
+              <p className="text-slate-500 text-[11px]">
                 Drop in or book a custom squad event with birthday cakes and party music.
               </p>
               <div className="pt-2">
@@ -108,7 +108,7 @@ export const Footer: React.FC = () => {
                   href="https://wa.me/919877950582?text=Hello%20Spacebar%20Ludhiana!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-950/70 border border-emerald-600/50 text-emerald-300 hover:text-white transition-colors"
+                  className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-50 border border-emerald-300 text-emerald-800 hover:bg-emerald-100 transition-colors shadow-2xs font-semibold"
                 >
                   <span>Chat on WhatsApp</span>
                 </a>
@@ -123,7 +123,7 @@ export const Footer: React.FC = () => {
           <div className="flex items-center gap-2">
             <span>© {new Date().getFullYear()} SPACEBAR Ludhiana. All rights reserved.</span>
             <span>·</span>
-            <span className="flex items-center gap-1 text-slate-400">
+            <span className="flex items-center gap-1 text-slate-600">
               Made with <Heart className="w-3 h-3 text-rose-500 inline fill-rose-500" /> for Ludhiana gamers
             </span>
           </div>
@@ -133,13 +133,13 @@ export const Footer: React.FC = () => {
               href="https://maps.google.com/?q=SPACEBAR+51+I+Block+Sarabha+Nagar+Ludhiana"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-slate-300"
+              className="hover:text-slate-900 font-medium"
             >
               Google Maps (4.8 ★)
             </a>
             <button
               onClick={scrollToTop}
-              className="flex items-center gap-1 hover:text-white transition-colors cursor-pointer"
+              className="flex items-center gap-1 hover:text-slate-900 font-medium transition-colors cursor-pointer"
             >
               <span>Back to Top</span>
               <ArrowUp className="w-3 h-3" />

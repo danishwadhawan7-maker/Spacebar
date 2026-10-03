@@ -113,7 +113,7 @@ export default function App() {
   });
 
   return (
-    <div className="bg-[#090a10] text-[#e6e8f2] min-h-screen flex flex-col font-sans selection:bg-purple-600 selection:text-white">
+    <div className="bg-white text-slate-900 min-h-screen flex flex-col font-sans selection:bg-rose-500 selection:text-white">
       {/* Top Navbar */}
       <Navbar
         onOpenBooking={() => scrollToBooking()}
@@ -157,17 +157,17 @@ export default function App() {
       {/* Footer */}
       <Footer />
 
-      {/* Floating Bottom Quick Action on Mobile (< 15% viewport height cap compliant) */}
+      {/* Floating Bottom Quick Action on Mobile */}
       <div className="fixed bottom-3 right-3 sm:hidden z-40 flex items-center gap-2">
         {totalCartCount > 0 && (
           <button
             onClick={() => setIsCartOpen(true)}
-            className="p-3 bg-slate-900 border border-purple-500/40 text-purple-300 rounded-full shadow-lg"
+            className="p-3 bg-white border border-slate-300 text-slate-800 rounded-full shadow-lg"
             aria-label="View Food Tab"
           >
             <div className="relative">
-              <ShoppingBag className="w-5 h-5" />
-              <span className="absolute -top-1 -right-1 w-4 h-4 bg-purple-600 text-[9px] font-bold text-white rounded-full flex items-center justify-center">
+              <ShoppingBag className="w-5 h-5 text-slate-700" />
+              <span className="absolute -top-1 -right-1 w-4 h-4 bg-rose-500 text-[9px] font-bold text-white rounded-full flex items-center justify-center">
                 {totalCartCount}
               </span>
             </div>
@@ -175,9 +175,9 @@ export default function App() {
         )}
         <button
           onClick={() => scrollToBooking()}
-          className="px-4 py-2.5 bg-gradient-to-r from-purple-600 via-indigo-600 to-cyan-500 text-white text-xs font-bold rounded-full shadow-lg shadow-purple-950/60 flex items-center gap-1.5 cursor-pointer"
+          className="px-4 py-2.5 bg-slate-900 hover:bg-black text-white text-xs font-bold font-display rounded-full shadow-lg flex items-center gap-1.5 cursor-pointer"
         >
-          <Sparkles className="w-3.5 h-3.5" />
+          <Sparkles className="w-3.5 h-3.5 text-amber-400" />
           <span>Book Slot</span>
         </button>
       </div>
